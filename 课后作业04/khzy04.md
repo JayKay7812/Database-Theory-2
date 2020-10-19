@@ -53,7 +53,7 @@ $(document).ready(function() {
 
 # 将数据库中的数据包装为json格式，并使用jqGrid加载
 ## 数据库截图
-![khzy04_1 pic]()
+![khzy04_1 pic](https://github.com/JayKay7812/Database-Theory-2/blob/master/%E8%AF%BE%E5%90%8E%E4%BD%9C%E4%B8%9A04/img/khzy04_1.png)
 
 ## index.html
 ```
