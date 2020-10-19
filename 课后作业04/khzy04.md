@@ -1,7 +1,7 @@
 # 使用jqGrid加载json格式文件的数据
 
 ## index.html 核心代码
-'''
+```
 $(document).ready(function() {
             $("#jqGrid").jqGrid({
                 url:'texts.json',
@@ -21,10 +21,10 @@ $(document).ready(function() {
                 pager: "#jqGridPager"
             });
         });
-'''
+```
 
 ## texts.json
-'''
+```
 {
     "rows": [
         {
@@ -49,14 +49,14 @@ $(document).ready(function() {
         }
     ]
 }
-'''
+```
 
 # 将数据库中的数据包装为json格式，并使用jqGrid加载
 ## 数据库截图
 ![khzy04_1 pic]()
 
 ## index.html
-'''
+```
 $(document).ready(function() {
             $("#jqGrid").jqGrid({
                 <font color=blue>url:'db.php',</font>
@@ -76,9 +76,9 @@ $(document).ready(function() {
                 pager: "#jqGridPager"
             });
         });
-'''
+```
 ## db.php
-'''
+```
 <?php
   $dbhost = 'localhost:3306';  //mysql服务器主机地址
   $dbuser = 'root';      //mysql用户名
@@ -100,4 +100,4 @@ $(document).ready(function() {
   
   echo(json_encode($return));
 ?>
-'''
+```
