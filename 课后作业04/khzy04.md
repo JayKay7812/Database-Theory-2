@@ -59,7 +59,7 @@ $(document).ready(function() {
 ```
 $(document).ready(function() {
             $("#jqGrid").jqGrid({
-                <font color=blue>url:'db.php',</font>
+                url:'db.php',
                 datatype: "json",
                 colNames: ['zh_CN', 'en_US'],
                 colModel: [{
