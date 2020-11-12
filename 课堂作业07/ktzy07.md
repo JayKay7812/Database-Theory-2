@@ -14,7 +14,7 @@
 ```
 ## 无字典分词
 ### 结果
-![ktzy07_1 pic]()
+![ktzy07_1 pic](https://github.com/JayKay7812/Database-Theory-2/blob/master/%E8%AF%BE%E5%A0%82%E4%BD%9C%E4%B8%9A07/img/ktzy07_1.png)
 ### 代码
 ```
 import jieba
@@ -38,7 +38,7 @@ f1.close()
 
 ```
 ### 结果
-![ktzy07_2 pic]()
+![ktzy07_2 pic](https://github.com/JayKay7812/Database-Theory-2/blob/master/%E8%AF%BE%E5%A0%82%E4%BD%9C%E4%B8%9A07/img/ktzy07_2.png)
 ### 代码
 ```
 import jieba
@@ -73,7 +73,7 @@ Provided you fulfill the terms of the credit we will accept and pay at maturity 
 ```
 ## 无字典分词
 ### 结果
-![ktzy07_3 pic]()
+![ktzy07_3 pic](https://github.com/JayKay7812/Database-Theory-2/blob/master/%E8%AF%BE%E5%A0%82%E4%BD%9C%E4%B8%9A07/img/ktzy07_3.png)
 ### 代码
 ```
 import nltk
@@ -96,7 +96,7 @@ for line in f2.readlines():
 ```
 ## 有字典分词
 ### 结果
-![ktzy07_4 pic]()
+![ktzy07_4 pic](https://github.com/JayKay7812/Database-Theory-2/blob/master/%E8%AF%BE%E5%A0%82%E4%BD%9C%E4%B8%9A07/img/ktzy07_4.png)
 ### 代码
 ```
 import nltk
